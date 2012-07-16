@@ -1,4 +1,4 @@
-/*********************** 
+/***********************
 general styling
 ************************/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
@@ -17,12 +17,12 @@ a:hover, a:active { outline: 0; }
 
 html { font-size: 100%; overflow-y: auto; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-/*********************** 
+/***********************
 important for easy em usage
 ************************/
-body { font-size: 62.5%; }
+body { font-size: 100%; }
 
-/*********************** 
+/***********************
 a clean header font
 ************************/
 @font-face {
@@ -47,7 +47,7 @@ a clean header font
     font-style: normal;
 
 }
-/*********************** 
+/***********************
 our mobile-first styles
 ************************/
 [role="main"] {
@@ -86,7 +86,7 @@ header h1,
 header h2 {
     margin: 0;
     font-weight:normal;
-}   
+}
 header h1 {
     font-family: "OpenSansBold";
     font-size: 3em;
@@ -157,7 +157,7 @@ blockquote p:after {
 }
 dt {
     text-align:left;
-    width:100%; 
+    width:100%;
     float:left;
     text-align:left;
     font-style:italic;
@@ -237,7 +237,7 @@ dd {
     .job-start:after {
         display:none;
         content: "";
-    }   
+    }
     .job-end:before {
         content: "– ";
     }
@@ -261,7 +261,7 @@ dd {
     top:0;
     right:0;
 }
-/*********************** 
+/***********************
 these styles will override
 our mobile-first styles for
 larger displays
@@ -312,13 +312,13 @@ larger displays
     .job-details {
         float:right;
         width:79.536082474%;
-    }   
+    }
     .date-ranges {
         width: 15.4639%;
         transition:all .3s ease;
-        -o-transition:all .3s ease; 
+        -o-transition:all .3s ease;
         -moz-transition:all .3s ease;
-        -webkit-transition:all .3s ease;        
+        -webkit-transition:all .3s ease;
     }
     #logo {
         top: 1em;
