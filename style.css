@@ -58,7 +58,7 @@ our mobile-first styles
 #container {
     width:100%;
     margin:0 auto;
-    max-width: 800px;
+    max-width: 960px;
     position:relative;
 }
 #inner-wrap {
