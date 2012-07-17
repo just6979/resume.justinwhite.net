@@ -11,7 +11,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: #00e; }
 a:visited { }
-a:hover {  }
+a:hover { }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -66,7 +66,7 @@ our mobile-first styles
     -moz-box-shadow: 0 0 0 0 transparent;
     box-shadow: 0 0 0 0 transparent;
     float:left;
-    padding:3em;
+    padding:2em;
 }
     .col-one header {
         float:none;
@@ -107,7 +107,6 @@ article hgroup {
 #work-experience:after,
 .col-two dl:after,
 .col-two ul:after {
-    content:'\00B7';
     display: block;
     font-size: 3.5em;
     margin: 0.25em auto -0.1em 0;
@@ -129,31 +128,9 @@ dt,
 dd,
 .col-two h1,
 .col-two li,
-.col-two p,
-blockquote span {
+.col-two p {
     font-size: 1.2em;
     margin: 0;
-}
-blockquote {
-        font-weight: bold;
-        margin: 0 0 2em;
-}
-blockquote span {
-    color:#211B1B;
-    display:block;
-}
-blockquote span:before {
-    content: "- ";
-}
-.col-two blockquote p {
-    font-size: 1.45em;
-    margin-bottom:1em;
-}
-blockquote p:before {
-    content: '"';
-}
-blockquote p:after {
-    content: '"';
 }
 dt {
     text-align:left;
@@ -256,11 +233,6 @@ dd {
         color:#6C575A;
         margin-bottom:0.25em;
     }
-#logo {
-    position:absolute;
-    top:0;
-    right:0;
-}
 /***********************
 these styles will override
 our mobile-first styles for
@@ -319,10 +291,6 @@ larger displays
         -o-transition:all .3s ease;
         -moz-transition:all .3s ease;
         -webkit-transition:all .3s ease;
-    }
-    #logo {
-        top: 1em;
-        right: 1em;
     }
     .col-two dl:after,
     .col-two ul:after {
