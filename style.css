@@ -3,10 +3,6 @@ general styling
 ************************/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-body { margin: 0; font-size: 13px; line-height: 1.231; }
-
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: #00e; }
@@ -14,8 +10,6 @@ a:visited { }
 a:hover { }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
-
-html { font-size: 100%; overflow-y: auto; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /***********************
 important for easy em usage
@@ -58,7 +52,7 @@ our mobile-first styles
 #container {
     width:100%;
     margin:0 auto;
-    max-width: 960px;
+    max-width: 1024px;
     position:relative;
 }
 #inner-wrap {
@@ -216,9 +210,10 @@ dd {
         content: "";
     }
     .job-end:before {
-        content: "– ";
+        content: " to ";
     }
-    .job-details {
+    .job-details ,
+	.job-details p {
         float:left;
         width:100%;
         margin:0;
