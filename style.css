@@ -148,7 +148,6 @@ dd,
 .col-two h1,
 .col-two li,
 .col-two p {
-  font-size: 1.2em;
   margin: 0;
 }
 
@@ -231,7 +230,6 @@ dd {
 
 .job-start,
 .job-end {
-  font-size: 1.2em;
   clear: left;
   float: none;
   text-align: left;
@@ -240,8 +238,7 @@ dd {
 
 .job-location,
 .job-title,
-.company-name,
-.job-details {
+.company-name {
   font-size: 1.2em;
 }
 
