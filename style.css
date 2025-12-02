@@ -21,22 +21,14 @@ a clean header font
 ************************/
 @font-face {
     font-family: 'OpenSansRegular';
-    src: url('opensans-regular-webfont.eot');
-    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('opensans-regular-webfont.woff') format('woff'),
-         url('opensans-regular-webfont.ttf') format('truetype'),
-         url('opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    src: url('opensans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'OpenSansBold';
-    src: url('opensans-bold-webfont.eot');
-    src: url('opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('opensans-bold-webfont.woff') format('woff'),
-         url('opensans-bold-webfont.ttf') format('truetype'),
-         url('opensans-bold-webfont.svg#OpenSansBold') format('svg');
+    src: url('opensans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -45,7 +37,7 @@ a clean header font
 our mobile-first styles
 ************************/
 [role="main"] {
-    font-family: "OpenSansRegular";
+  font-family: "OpenSansRegular", sans-serif;
     float:left;
     width:100%;
 }
@@ -82,12 +74,12 @@ header h2 {
     font-weight:normal;
 }
 header h1 {
-    font-family: "OpenSansBold";
+  font-family: "OpenSansBold", sans-serif;
     font-size: 3em;
     margin-bottom:-0.1em;
 }
 header h2 {
-    font-family: "OpenSansRegular";
+  font-family: "OpenSansRegular", sans-serif;
     font-size: 2em;
 }
 article hgroup {
@@ -113,7 +105,6 @@ article hgroup {
     float:left;
 }
 
-    }
 dl {
     clear:left;
     margin: 0 0 1em;
@@ -130,7 +121,6 @@ dt {
     text-align:left;
     width:100%;
     float:left;
-    text-align:left;
     font-style:italic;
     clear:left;
 }
